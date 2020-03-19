@@ -1,4 +1,7 @@
-#import input
+'''
+This is the card file where each individual card has its rank and the suits. Both of them has been initialised here and would be very useful
+later on in the deck and main class.
+'''
 class card():
     def __init__(self,suits,rank):
         self.suits=suits
@@ -9,7 +12,10 @@ class card():
 
     def getrank(self):
         return self.rank
-
+'''
+Since we know that in this particular game we can choose ace to be 1 or 11 so, it is given as an option to the player.
+Also, as for the face cards each has the value of 10.
+'''
     def countingnum(self):
         if(self==1):
             askvalueofa=int(input("What do you want the value of Ace to be: 1 or 11"))
@@ -19,8 +25,8 @@ class card():
         else:
             return self
 
-
 '''
+Below are some of the smaller test codes for the card class.
 cars= card('H',1)
 print(cars.getrank())
 countingnum= cars.countingnum(cars.getrank())
