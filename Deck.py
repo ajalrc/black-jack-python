@@ -38,7 +38,7 @@ class Deck():
             return deck_in_list.pop(0)
 
 '''
-Below are some smaller codes to double check that the codes are running correctly
+Below are some smaller codes to double check that the codes are running correctly.Better test file at seperate file. Look back.
 '''
 #deck=Deck()
 #deckinlist= deck.createdeck()
