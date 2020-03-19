@@ -33,7 +33,7 @@ Also, as for the face cards each has the value of 10.
             return self
 
 '''
-Below are some of the smaller test codes for the card class.
+Below are some of the smaller test codes for the card class.Better test codes are in the seperate file. Go back.
 cars= card('H',1)
 print(cars.getrank())
 countingnum= cars.countingnum(cars.getrank())
